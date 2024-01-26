@@ -1,8 +1,10 @@
 // This is the main starting point for your app. It is used to wrap all your pages and components. It is also used to inject global styles and scripts.
 
-import { Footer, Navbar } from "@/components";
+import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import SideBar from "@/components/SideBar";
 
 const inter = Inter({ subsets: ["latin"] }); // This is the font we are using for this app
 
@@ -19,7 +21,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar /> {/* This is the how you call a component */}
-        {children} {/* All the pages will be rendered in here */}
+        {/* All the pages will be rendered in here */}
+        <main className="h-screen">{children}</main>
         <Footer /> {/* This is the how you call a component */}
       </body>
     </html>
