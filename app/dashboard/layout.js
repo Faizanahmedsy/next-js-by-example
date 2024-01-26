@@ -1,6 +1,8 @@
 import React from "react";
 import SideNav from "@/components/SideNav";
 
+//THIS IS THE LAYOUT FOR THE DASHBOARD and all its children pages
+
 const Layout = ({ children }) => {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">

@@ -10,10 +10,10 @@ import { usePathname } from "next/navigation";
 const links = [
   { name: "Home", href: "/dashboard" },
   {
-    name: "Invoices",
-    href: "/dashboard/invoices",
+    name: "API CRUD",
+    href: "/dashboard/todo",
   },
-  { name: "Customers", href: "/dashboard/customers" },
+  { name: "Ui Design", href: "/dashboard/ui" },
 ];
 
 export default function SideNav() {
