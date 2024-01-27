@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import SideBar from "@/components/SideBar";
 
 const inter = Inter({ subsets: ["latin"] }); // This is the font we are using for this app
 
@@ -28,5 +27,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-// IMPORTANT NOTE:

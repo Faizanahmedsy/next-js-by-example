@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 const ShowName = () => {
+  // A State is just a Javascript variable that can be used in the return statement below and changing this would cause the page to re-render
   const [name, setName] = useState("user");
 
   return (

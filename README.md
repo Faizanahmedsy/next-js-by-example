@@ -1,4 +1,4 @@
-*app* folder is the main folder in out app 
+*app* folder is the main folder of the app 
 
 
 
